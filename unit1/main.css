@@ -1,11 +1,7 @@
-h1 {
-	color: #4682B4;
-}
-
-p{
-	color: navy;
-}
-
 body{
 	background-color: #FAFAD2;
+	color: navy;
+}
+h1 {
+	color: #4682B4;
 }
