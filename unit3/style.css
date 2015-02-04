@@ -1,21 +1,22 @@
 body {
-	background-color: #FFFFD1;
-	color: #4343A6;
+	background-color: #282828;
+	color: #FDF5E6;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:16px;
 }
 h1 {
-	color: #4343A6;
 	font-size:2em;
 	text-align: center;
-	text-decoration: underline;
+}
+section#mainimage {
+	background: url("images/background.jpg") no-repeat;
+	background-size: cover;
+	height: 100vh;
 }
 #slogan {
-	color: #4343A6;
 	font-style: italic;
 	text-align: center;
 }
 #contact {
-	color: #4343A6;
 	font-size: .75em;
 }
