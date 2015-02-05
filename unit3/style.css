@@ -11,6 +11,10 @@ section { }
 	background-size: cover;
 	height: 100vh;
 }
+#mainimage img {
+	display:block;
+	margin:auto;
+}
 #about { 
 	background:rgba(255,255,255,1);
 }
@@ -19,6 +23,9 @@ section { }
 }
 #contact { 
 	background:rgba(255,255,255,1);
+}
+#contact a{
+	display:block;
 }
 h1 {
 	font-size:2em;
