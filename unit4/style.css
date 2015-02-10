@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	background-color: #282828;
+	color: #FDF5E6;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:16px;
+}
+section { 
+}
+#mainimage {
+	background: url("images/neworleans.jpg") no-repeat;
+	background-size: cover;
+	height: 75vh;
+}
+#mainimage img {
+	display:block;
+	margin:auto;
+	width: 300px;
+}
+.transbox {
+    background-color: #FFF;
+    opacity: 0.8;
+}
+#about {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+#list {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+#contact { 
+	margin: 25px;
+}
+#contact a{
+	display:block;
+}
+h1 {
+	color: #D9B32A;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.3em;
+	padding-bottom: 25px;
+	padding-top: 40px;
+	text-align: center;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size:1.3em;
+}
+#slogan {
+	color: #282828;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
