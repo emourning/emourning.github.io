@@ -11,10 +11,8 @@ body {
 	background-size: cover;
 	height: 75vh;
 }
-#mainimage img {
-	display:block;
-	margin:auto;
-	width: 300px;
+#mainimage div {
+	padding:100px;
 }
 h1 {
 	font-family: 'Lobster Two', cursive;
@@ -22,24 +20,23 @@ h1 {
 	padding: 20px 0 0 20px;
 }
 h2 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 1.5em;
+}
+.subtitle {
 	font-size: 1em;
 	padding: 0 0 0 50px;
 	text-transform: uppercase;
 }
-h3 {
+.author {
 	font-family: 'Lobster Two', cursive;
 	font-size: 1em;
 	padding: 5px 0 0 170px;
 }
-h4 {
-	font-family: 'Lobster Two', cursive;
-	font-size: 1.5em;
-}
 nav {
 	margin: 2em
 }
-footer {
-	font-family: cursive;
+footer p {
 	font-size: 1em;
 	padding: 0 20em;
 	text-align: center;
