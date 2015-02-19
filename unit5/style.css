@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	background-color: #FFF;
+	color: #000;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:16px;
+}
+#mainimage {
+	background: url("images/exposition.jpg") no-repeat;
+	background-size: cover;
+	height: 75vh;
+}
+#mainimage img {
+	display:block;
+	margin:auto;
+	width: 300px;
+}
+h1 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 3.3em;
+	padding: 20px 0 0 20px;
+}
+h2 {
+	font-size: 1em;
+	padding: 0 0 0 50px;
+	text-transform: uppercase;
+}
+h3 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 1em;
+	padding: 5px 0 0 170px;
+}
+h4 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 1.5em;
+}
+nav {
+	margin: 2em
+}
+footer {
+	font-family: cursive;
+	font-size: 1em;
+	padding: 0 20em;
+	text-align: center;
+}
+#aboutauthor {
+	margin-top: 20px;
+}
+
+
