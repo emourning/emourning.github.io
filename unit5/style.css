@@ -41,8 +41,11 @@ footer p {
 	padding: 0 20em;
 	text-align: center;
 }
+#aboutbook {
+	margin: 20px;
+}
 #aboutauthor {
-	margin-top: 20px;
+	margin: 20px;
 }
 
 
