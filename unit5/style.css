@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster+Two);
 * {margin:0;padding:0;box-sizing:border-box;}
 body {
-	background-color: #F1E9D2;
+	background: url("images/watercolor.jpg");
 	color: #000;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:16px;
@@ -9,10 +9,11 @@ body {
 #mainimage {
 	background: url("images/exposition.jpg") no-repeat;
 	background-size: cover;
-	height: 75vh;
+	margin: 0;
+	height: 85vh;
 }
 #mainimage div {
-	padding: 100px;
+	padding: 30px;
 }
 h1 {
 	font-family: 'Lobster Two', cursive;
@@ -34,18 +35,19 @@ h2 {
 	padding: 5px 0 0 170px;
 }
 nav {
-	margin: 2em
+}
+.about {
+	background-color: #FFF;
+	margin: 9px;
+	padding: 1.7em;
+	opacity: .7;
 }
 footer p {
 	font-size: 1em;
-	padding: 0 20em;
+	padding: .4em 20em .8em 20em;
 	text-align: center;
 }
-#aboutbook {
-	margin: 20px;
-}
-#aboutauthor {
-	margin: 20px;
-}
+
+
 
 
