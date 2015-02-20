@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster+Two);
 * {margin:0;padding:0;box-sizing:border-box;}
 body {
-	background-color: #FFF;
+	background-color: #F1E9D2;
 	color: #000;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:16px;
@@ -12,7 +12,7 @@ body {
 	height: 75vh;
 }
 #mainimage div {
-	padding:100px;
+	padding: 100px;
 }
 h1 {
 	font-family: 'Lobster Two', cursive;
