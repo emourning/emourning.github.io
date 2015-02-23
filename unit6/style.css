@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	background: url("images/watercolor.jpg");
+	color: #000;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:16px;
+}
+#mainimage {
+	background: url("images/exposition.jpg") no-repeat;
+	background-size: cover;
+	margin: 0;
+	height: 85vh;
+}
+#mainimage div {
+	padding: 30px;
+}
+h1 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 3.3em;
+	padding: 20px 0 0 20px;
+}
+h2 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 1.5em;
+	text-align: center;
+}
+.subtitle {
+	font-size: 1em;
+	padding: 0 0 0 50px;
+	text-transform: uppercase;
+}
+.author {
+	font-family: 'Lobster Two', cursive;
+	font-size: 1em;
+	padding: 5px 0 0 170px;
+}
+nav {
+	float: right;
+	font-family: "Book Antiqua", serif;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+nav a {
+	color: black;
+	display: inline-block;
+	margin: 2em 2em 1em 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav a:hover {
+	color: #700000;
+}
+#aboutbook {
+
+	background-color: #FFF;
+	float: left;
+	margin: 15px 9px 9px 30px;
+	padding: 1.7em;
+	opacity: .7;
+	width: 30em;
+}
+#aboutauthor {
+	background-color: #FFF;
+	float: left;
+	margin: 15px 9px 30px 9px;
+	padding: 1.7em;
+	opacity: .7;
+	width: 32em;
+}
+#quote {
+	background-color: #800000;
+	clear: both;
+	font-size: 1.4em;
+	font-style: italic;
+	margin: 30px;
+	opacity: .6;
+	padding: 4em;
+	text-align: center;
+	width: 45em;
+}
+#signature {
+	font-size: 0.7em;
+	font-style: normal;
+	margin: 0 10em 0 0;
+	text-align: right;
+	text-transform: uppercase;
+}
+footer p {
+	font-size: 1em;
+	padding: .4em 20em .8em 20em;
+	text-align: center;
+}
+
+
+
+
