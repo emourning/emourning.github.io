@@ -4,7 +4,7 @@
 body {
 	background: url("images/neworleans.jpg") no-repeat;
 	background-size: cover;
-	color: #FDF5E6;
+	color: #000;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:16px;
 }
@@ -20,14 +20,30 @@ nav a {
 section { 
 }
 
+#bar {
+	background-color: #FDF5E6;
+	margin: 0;
+	opacity: .95;
+	padding: 20px;
+}
+
 #name {
 }
 
 #about {
+	background-color: #FDF5E6;
+	margin: 10px 0;
+	opacity: .95;
+	padding: 20px;
 }
 
 #other {
+	background-color: #FDF5E6;
+	margin: 10px 0;
+	opacity: .95;
+	padding: 20px;
 }
 
 footer {
+	text-align: center;
 }
