@@ -1,20 +1,35 @@
 
+@import url(http://fonts.googleapis.com/css?family=Lato);
 * {margin:0;padding:0;box-sizing:border-box;}
 
 body {
 	background: url("images/neworleans.jpg") no-repeat;
 	background-size: cover;
-	color: #000;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-attachment: fixed;
+	height: 75vh;
+	font-family: Tahoma, Geneva, sans-serif;
 	font-size:16px;
 }
 
 nav {
 	float: right;
-	margin: 20px 10px;
+	margin: 10px;
 }
 
 nav a {
+	color: #000;
+	margin: 0 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a {
+	color: #191970;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #DFC12A;
 }
 
 section { 
@@ -24,26 +39,45 @@ section {
 	background-color: #FDF5E6;
 	margin: 0;
 	opacity: .95;
-	padding: 20px;
+	padding: 15px 20px;
+}
+
+h1 {
+	color: #191970;
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	margin-bottom: 5px;
+}
+
+#slogan {
+	font-family: #;
+	font-style: italic;
 }
 
 #name {
 }
 
+h2 {
+	color: #191970;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
 #about {
 	background-color: #FDF5E6;
-	margin: 10px 0;
+	margin: 36em 0 0 0;
 	opacity: .95;
-	padding: 20px;
+	padding: 20px 20px 10px 20px;
 }
 
 #other {
 	background-color: #FDF5E6;
-	margin: 10px 0;
+	margin: 0;
 	opacity: .95;
-	padding: 20px;
+	padding: 10px 20px 20px 20px;
 }
 
-footer {
-	text-align: center;
+p {
+	margin: 10px 0;
 }
+
