@@ -60,20 +60,21 @@ h1 {
 h2 {
 	color: #191970;
 	font-family: 'Lato', sans-serif;
+	font-size: 1.7em;
 	text-align: center;
 }
 
 #about {
 	background-color: #FDF5E6;
-	margin: 36em 0 0 0;
-	opacity: .95;
+	margin: 39em 0 0 0;
+	opacity: 1;
 	padding: 20px 20px 10px 20px;
 }
 
 #other {
 	background-color: #FDF5E6;
 	margin: 0;
-	opacity: .95;
+	opacity: 1;
 	padding: 10px 20px 20px 20px;
 }
 
