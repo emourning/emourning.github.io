@@ -51,33 +51,35 @@ nav a {
 nav a:hover {
 	color: #700000;
 }
+#wrapper {
+	margin: 20px;
+	max-width: 100em;
+}
 #aboutbook {
-
 	background-color: #FFF;
 	float: left;
-	margin: 15px 9px 9px 30px;
-	padding: 1.7em;
+	margin: 0 0 20px 0;
+	padding: 2em;
 	opacity: .7;
-	width: 30em;
+	width: 47%;
 }
 #aboutauthor {
 	background-color: #FFF;
-	float: left;
-	margin: 15px 9px 30px 9px;
-	padding: 1.7em;
+	float: right;
+	margin: 0 0 20px 0;
+	padding: 2em;
 	opacity: .7;
-	width: 32em;
+	width: 47%;
 }
 #quote {
-	background-color: #800000;
+	background-color: rgba(128,0,0,.7);
 	clear: both;
 	font-size: 1.4em;
 	font-style: italic;
-	margin: 30px;
-	opacity: .6;
+	margin: 0;
 	padding: 4em;
 	text-align: center;
-	width: 45em;
+	width: 100%;
 }
 #signature {
 	font-size: 0.7em;
