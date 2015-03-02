@@ -68,7 +68,7 @@ h2 {
 }
 
 #info {
-	background-color: #FDF5E6;
+	background-color: rgba(253,245,230,.95);
 	float: left;
 	margin: 39em 0 0 0;
 	opacity: 1;
@@ -92,7 +92,7 @@ img {
 }
 
 #other {
-	background-color: #FDF5E6;
+	background-color: rgba(253,245,230,.95);
 	clear: both;
 	margin: 0;
 	opacity: 1;
