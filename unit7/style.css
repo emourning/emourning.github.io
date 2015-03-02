@@ -33,6 +33,7 @@ a:hover {
 }
 
 section { 
+	margin: 0;
 }
 
 #bar {
@@ -49,33 +50,54 @@ h1 {
 	margin-bottom: 5px;
 }
 
+#name {
+}
+
 #slogan {
 	font-family: #;
 	font-style: italic;
 }
 
-#name {
-}
-
 h2 {
 	color: #191970;
 	font-family: 'Lato', sans-serif;
-	font-size: 1.7em;
+	font-size: 1em;
+	margin-top: 5px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
-#about {
+#info {
 	background-color: #FDF5E6;
+	float: left;
 	margin: 39em 0 0 0;
 	opacity: 1;
 	padding: 20px 20px 10px 20px;
 }
 
+.boxes {
+	background-color: #FFF;
+	display: inline-block;
+	float: left;
+	height: 18em;
+	margin: 5px;
+	padding: 2em;
+	width: 49%;
+}
+
+img {
+	display: block;
+	height: 2.8em;
+	margin: auto;
+}
+
 #other {
 	background-color: #FDF5E6;
+	clear: both;
 	margin: 0;
 	opacity: 1;
 	padding: 10px 20px 20px 20px;
+	text-align: center;
 }
 
 p {
