@@ -103,4 +103,14 @@ img {
 p {
 	margin: 10px 0;
 }
-
+.wrapper {
+	max-width:75em;
+	margin:0 auto;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
