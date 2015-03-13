@@ -9,7 +9,41 @@ body {
 }
 
 p {
-	margin: 10px 0;
+	margin: 0, auto;
+}
+
+section { 
+	margin: 0, auto;
+}
+
+h1 {
+	color: #191970;
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	margin-bottom: .3em;
+}
+
+h2 {
+	color: #191970;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	margin: 0.5em 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: rgb(253,245,230);
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	padding-bottom: 2%;
+	text-align: center;
+}
+
+img {
+	display: block;
+	height: 2.8em;
+	margin: auto;
 }
 
 header {
@@ -45,47 +79,11 @@ a:hover {
 	color: #DFC12A;
 }
 
-section { 
-	margin: 0;
-}
-
-h1 {
-	color: #191970;
-	font-family: 'Lato', sans-serif;
-	font-size: 2em;
-	margin-bottom: 5px;
-}
-
-h2 {
-	color: #191970;
-	font-family: 'Lato', sans-serif;
-	font-size: 1em;
-	margin-top: 5px;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-h3 {
-	color: #191970;
-	font-family: 'Lato', sans-serif;
-	font-size: 2em;
-	margin-bottom: 5px;
-	padding-bottom: 2%;
-	text-align: center;
-}
-
-img {
-	display: block;
-	height: 2.8em;
-	margin: auto;
-}
-
 #name {
 	padding: 1.6%;
 }
 
 #slogan {
-	font-family: #;
 	font-style: italic;
 }
 
@@ -98,7 +96,7 @@ img {
 	background-color: rgba(253,245,230,.8);
 	margin: 0;
 	opacity: 1;
-	padding: 20px 20px 10px 20px;
+	padding: 1em 1em .5em 1em;
 }
 
 .boxes {
@@ -112,8 +110,8 @@ img {
 }
 
 .wrapper {
-	max-width:75em;
-	margin:0 auto;
+	max-width: 75em;
+	margin: 0, auto;
 }
 
 .clearfix:after { 
@@ -129,8 +127,8 @@ img {
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100vh;
-	margin: 0;
-	padding: 5%;
+	margin: 0, auto;
+	padding: 1em 1em .5em 1em;
 }
 
 .jobs {
@@ -138,8 +136,7 @@ img {
 	display: inline-block;
 	float: left;
 	height: 12em;
-	margin: 1%;
+	margin: 0, auto;
 	padding: 1.5em;
 	text-align: center;
-	width: 28%;
 }
