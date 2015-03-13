@@ -1,0 +1,145 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+* {margin:0;padding:0;box-sizing:border-box;}
+
+body {
+	background-color: #FFF;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size:16px;
+}
+
+p {
+	margin: 10px 0;
+}
+
+header {
+	background: url("images/neworleans.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	margin: 0;
+	opacity: .95;
+	padding: 0;
+}
+
+nav {
+	float: right;
+	margin: 10px;
+	padding: 2% 0 0 0;
+}
+
+nav a {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	margin: 0 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a {
+	color: #191970;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #DFC12A;
+}
+
+section { 
+	margin: 0;
+}
+
+h1 {
+	color: #191970;
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	margin-bottom: 5px;
+}
+
+h2 {
+	color: #191970;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	margin-top: 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #191970;
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	margin-bottom: 5px;
+	padding-bottom: 2%;
+	text-align: center;
+}
+
+img {
+	display: block;
+	height: 2.8em;
+	margin: auto;
+}
+
+#name {
+	padding: 1.6%;
+}
+
+#slogan {
+	font-family: #;
+	font-style: italic;
+}
+
+#bar {
+	background-color: rgba(253,245,230,.9);
+	margin: auto;
+}
+
+#about {
+	background-color: rgba(253,245,230,.8);
+	margin: 0;
+	opacity: 1;
+	padding: 20px 20px 10px 20px;
+}
+
+.boxes {
+	background-color: #FFF;
+	display: inline-block;
+	float: left;
+	height: 18em;
+	margin: .5%;
+	padding: 2.8em;
+	width: 49%;
+}
+
+.wrapper {
+	max-width:75em;
+	margin:0 auto;
+}
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+#experience {
+	background: url("images/photography.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	margin: 0;
+	padding: 5%;
+}
+
+.jobs {
+	background-color: #FFF;
+	display: inline-block;
+	float: left;
+	height: 12em;
+	margin: 1%;
+	padding: 1.5em;
+	text-align: center;
+	width: 28%;
+}
