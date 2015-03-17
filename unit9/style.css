@@ -37,7 +37,7 @@ h3 {
 	font-family: 'Lato', sans-serif;
 	font-size: 2em;
 	padding: 2%;
-	margin-bottom: 1em;
+	margin: 1em, 0;
 	text-align: center;
 }
 
@@ -104,7 +104,6 @@ a:hover {
 #about {
 	background-color: rgba(253,245,230,.8);
 	margin: 0;
-	opacity: 1;
 	padding: 1em 1em .5em 1em;
 }
 
@@ -137,17 +136,17 @@ a:hover {
 	background-attachment: fixed;
 	height: 100vh;
 	margin: 0, auto;
-	padding: 1em 1em .5em 1em;
 }
 
 .jobs {
 	background-color: #FFF;
 	display: inline-block;
 	float: left;
-	height: 12em;
-	margin: 0, auto;
+	height: 18em;
+	margin: 1%;
 	padding: 1.2em;
 	text-align: center;
+	width: 31.2%;
 }
 
 #education {
@@ -162,7 +161,25 @@ a:hover {
 	display: inline-block;
 	float: left;
 	height: 18em;
-	margin: .5%;
+	margin: 0 .5% 2% .5%;
 	padding: 3.5em;
 	width: 49%;
+}
+
+#contact {
+	background: url("images/ducks.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	margin: 0, auto;
+}
+
+#contactinfo {
+	background-color: #FFF;
+	display: inline-block;
+	float: left;
+	margin: 0 5% 0 5%;
+	padding: 3.5em;
+	text-align: center;
+	width: 90%;
 }
