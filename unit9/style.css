@@ -36,7 +36,16 @@ h3 {
 	color: rgb(253,245,230);
 	font-family: 'Lato', sans-serif;
 	font-size: 2em;
-	padding-bottom: 2%;
+	padding: 2%;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+h4 {
+	color: #191970;
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	padding: 2%;
 	text-align: center;
 }
 
@@ -137,6 +146,23 @@ a:hover {
 	float: left;
 	height: 12em;
 	margin: 0, auto;
-	padding: 1.5em;
+	padding: 1.2em;
 	text-align: center;
+}
+
+#education {
+	background-color: rgba(253,245,230,.8);
+	margin: 0;
+	opacity: 1;
+	padding: 0 1em .5em 1em;
+}
+
+.school {
+	background-color: #FFF;
+	display: inline-block;
+	float: left;
+	height: 18em;
+	margin: .5%;
+	padding: 3.5em;
+	width: 49%;
 }
