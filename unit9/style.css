@@ -140,10 +140,14 @@ a:hover {
 	background-color: #FFF;
 	display: inline-block;
 	float: left;
-	height: 22em;
+	height: 25em;
 	margin: 1%;
-	padding: 2em;
+	padding: 1.5em;
 	width: 31.2%;
+}
+
+.pcenter {
+	text-align: center;
 }
 
 #education {
@@ -166,7 +170,7 @@ a:hover {
 ul {
 	font-size: 12px;
 	margin: 5%;
-	width: 70%;
+	width: 90%;
 }
 
 #contact {
