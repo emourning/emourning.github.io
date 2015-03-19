@@ -23,16 +23,8 @@ h1 {
 	margin-bottom: .3em;
 }
 
-h2 {
-	color: #191970;
-	font-family: 'Lato', sans-serif;
-	font-size: 1.15em;
-	margin: 0.5em 0;
-	text-align: center;
-	text-transform: uppercase;
-}
 
-h3 {
+h2 {
 	color: rgb(253,245,230);
 	font-family: 'Lato', sans-serif;
 	font-size: 2em;
@@ -41,12 +33,13 @@ h3 {
 	text-align: center;
 }
 
-h4 {
+h3 {
 	color: #191970;
 	font-family: 'Lato', sans-serif;
-	font-size: 2em;
-	padding: 2%;
+	font-size: 1.15em;
+	margin: 0.5em 0;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 img {
@@ -99,6 +92,10 @@ a:hover {
 #bar {
 	background-color: rgba(253,245,230,.9);
 	margin: auto;
+}
+
+.h2blue {
+	color: #191970;
 }
 
 #about {
