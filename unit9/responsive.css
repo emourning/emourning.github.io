@@ -1,0 +1,22 @@
+
+@media only screen and (max-width: 800px) {
+	nav {
+		float: none;
+	}
+	.wrapper {
+		width: 750px;
+	}
+	section {
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	nav {
+		float: none;
+	}
+	.wrapper {
+		width: 400px;
+	}
+
+}
