@@ -13,14 +13,14 @@ p {
 }
 
 section { 
-	margin: 0 auto;
+	padding: 2%;
+	margin: 1em .5em;
 }
 
 h1 {
 	color: #191970;
 	font-family: 'Lato', sans-serif;
 	font-size: 2em;
-	margin-bottom: .3em;
 }
 
 
@@ -28,8 +28,6 @@ h2 {
 	color: rgb(253,245,230);
 	font-family: 'Lato', sans-serif;
 	font-size: 2em;
-	padding: 2%;
-	margin: 1em 0;
 	text-align: center;
 }
 
@@ -105,7 +103,7 @@ a:hover {
 
 #about {
 	background-color: rgba(253,245,230,.8);
-	height: 100vh;
+	min-height: 100vh;
 	margin: 0;
 	padding: 1em 1em .5em 1em;
 }
@@ -113,7 +111,7 @@ a:hover {
 .boxes {
 	background-color: #FFF;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	display: inline-block;
+	display: block;
 	float: left;
 	min-height: 18em;
 	margin: .5%;
@@ -138,13 +136,13 @@ a:hover {
 	background: url("images/photography.jpg") no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 75vh;
+	min-height: 75vh;
 	margin: 0 auto;
 }
 
 .jobs {
 	background-color: #FFF;
-	display: inline-block;
+	display: block;
 	float: left;
 	min-height: 25em;
 	margin: 1%;
@@ -158,18 +156,17 @@ a:hover {
 
 #education {
 	background-color: rgba(253,245,230,.8);
-	height: 75vh;
+	min-height: 75vh;
 	margin: 0;
-	padding: 0 1em .5em 1em;
 }
 
 .school {
 	background-color: #FFF;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	display: inline-block;
+	display: block;
 	float: left;
 	min-height: 25em;
-	margin: 0 2% 2% 2%;
+	margin: 2%;
 	padding: 2.5em;
 	width: 46%;
 }
