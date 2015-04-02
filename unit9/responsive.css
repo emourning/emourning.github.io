@@ -1,8 +1,10 @@
 
 @media only screen and (min-width: 745px) and (max-width: 890px) {
 	nav {
-		float: none;
-		text-align: center;
+		display:none;
+	}
+	.mobile-nav {
+		display:block;
 	}
 	h1 {
 		text-align: center;
@@ -16,30 +18,11 @@
 	#slogan {
 		text-align: center;
 	}
-	.boxes {
+	.boxes, .jobs, .school {
 		float: none;
-		margin: 2em;
+		margin: 2em auto;
 		min-height: 15em;
-		padding: 1em;
-		position: relative;
-		width: 90%;
-	}
-	.wrapper {
-		width: 750px;
-	}
-	.jobs {
-		float: none;
-		margin: 2em;
-		min-height: 15em;
-		padding: 1em;
-		position: relative;
-		width: 60%;
-	}
-	.school {
-		float: none;
-		margin: 2em;
-		min-height: 15em;
-		padding: 1em;
+		padding: 2em;
 		position: relative;
 		width: 90%;
 	}
@@ -47,8 +30,10 @@
 
 @media only screen and (min-width: 660px) and (max-width: 744px) {
 	nav {
-		float: none;
-		text-align: center;
+		display:none;
+	}
+	.mobile-nav {
+		display:block;
 	}
 	h1 {
 		text-align: center;
@@ -62,39 +47,25 @@
 	#slogan {
 		text-align: center;
 	}
-	.boxes {
+	.boxes, .jobs, .school {
 		float: none;
-		margin: 1.5em;
+		margin: 1.5em auto;
 		min-height: 15em;
-		padding: 1em;
-		position: relative;
-		width: 90%;
-	}
-	.wrapper {
-		width: 680px;
-	}
-	.jobs {
-		float: none;
-		margin: 1.5em;
-		min-height: 15em;
-		padding: 1em;
-		position: relative;
-		width: 60%;
-	}
-	.school {
-		float: none;
-		margin: 1.5em;
-		min-height: 15em;
-		padding: 1em;
+		padding: 2em;
 		position: relative;
 		width: 90%;
 	}
 }
 
 @media only screen and (max-width: 659px) {
+	header {
+		background:;
+	}
 	nav {
-		float: none;
-		text-align: center;
+		display:none;
+	}
+	.mobile-nav {
+		display:block;
 	}
 	h1 {
 		text-align: center;
@@ -108,33 +79,13 @@
 	#slogan {
 		text-align: center;
 	}
-	.boxes {
+	.boxes, .jobs, .school {
 		float: none;
-		margin: 1.5em;
+		margin: 1.5em auto;
 		min-height: 15em;
-		padding: 1em;
-		position: relative;
-		width: 90%;
-	}
-	.wrapper {
-		width: 600px;
-	}
-	.jobs {
-		float: none;
-		margin: 1.5em;
-		min-height: 15em;
-		padding: 1em;
-		position: relative;
-		width: 60%;
-	}
-	.school {
-		float: none;
-		margin: 1.5em;
-		min-height: 15em;
-		padding: 1em;
+		padding: 2em;
 		position: relative;
 		width: 90%;
 	}
 }
 
-}
