@@ -73,6 +73,9 @@
 		background-position: top;
 		background-attachment: scroll;
 	}
+	#contacth2 {
+		color: #191970;
+	}
 	#contactinfo {
 		margin: 35% 5% 0 5%;
 	}
@@ -119,6 +122,9 @@
 	#contact {
 		background-position: top;
 		background-attachment: scroll;
+	}
+	#contacth2 {
+		color: #191970;
 	}
 	#contactinfo {
 		margin: 60% 5% 0 5%;
