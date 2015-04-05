@@ -55,6 +55,7 @@ header {
 	background: url("images/neworleans.jpg") no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	background-position: bottom;
 	height: 100vh;
 	margin: 0;
 	opacity: .95;
@@ -115,7 +116,7 @@ a:hover {
 	float: left;
 	min-height: 18em;
 	margin: .5%;
-	padding: 2.8em;
+	padding: 3.2em;
 	width: 49%;
 }
 
@@ -175,6 +176,7 @@ a:hover {
 	background: url("images/ducks.jpg") no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	background-position: top;
 	min-height: 30em;
 	margin: 0 auto;
 }
@@ -184,7 +186,7 @@ a:hover {
 	display: inline-block;
 	float: left;
 	margin: 10% 5% 0 5%;
-	padding: 3.5em;
+	padding: 2em;
 	text-align: center;
 	width: 90%;
 }

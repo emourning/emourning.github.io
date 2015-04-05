@@ -5,6 +5,9 @@
 	}
 	.mobile-nav {
 		display:block;
+		font-family: 'Lato', sans-serif;
+		padding: .5em 0 0 .5em;
+		text-transform: uppercase;
 	}
 	h1 {
 		text-align: center;
@@ -22,18 +25,25 @@
 		float: none;
 		margin: 2em auto;
 		min-height: 15em;
-		padding: 2em;
+		padding: 5em;
 		position: relative;
 		width: 90%;
 	}
 }
 
 @media only screen and (min-width: 660px) and (max-width: 744px) {
+	header {
+		background-position: top;
+		background-attachment: scroll;
+	}
 	nav {
 		display:none;
 	}
 	.mobile-nav {
 		display:block;
+		font-family: 'Lato', sans-serif;
+		padding: .5em 0 0 .5em;
+		text-transform: uppercase;
 	}
 	h1 {
 		text-align: center;
@@ -51,21 +61,36 @@
 		float: none;
 		margin: 1.5em auto;
 		min-height: 15em;
-		padding: 2em;
+		padding: 4em;
 		position: relative;
 		width: 90%;
+	}
+	#experience {
+		background-position: center;
+		background-attachment: scroll;
+	}
+	#contact {
+		background-position: top;
+		background-attachment: scroll;
+	}
+	#contactinfo {
+		margin: 35% 5% 0 5%;
 	}
 }
 
 @media only screen and (max-width: 659px) {
 	header {
-		background:;
+		background-position: center;
+		background-attachment: scroll;
 	}
 	nav {
 		display:none;
 	}
 	.mobile-nav {
 		display:block;
+		font-family: 'Lato', sans-serif;
+		padding: .5em 0 0 .5em;
+		text-transform: uppercase;
 	}
 	h1 {
 		text-align: center;
@@ -83,9 +108,20 @@
 		float: none;
 		margin: 1.5em auto;
 		min-height: 15em;
-		padding: 2em;
+		padding: 3em;
 		position: relative;
 		width: 90%;
+	}
+	#experience {
+		background-position: center;
+		background-attachment: scroll;
+	}
+	#contact {
+		background-position: top;
+		background-attachment: scroll;
+	}
+	#contactinfo {
+		margin: 60% 5% 0 5%;
 	}
 }
 
